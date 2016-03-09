@@ -1,0 +1,48 @@
+th,td {
+    text-align: center;
+}
+
+label {
+    margin: 5px 0;
+    padding-top: 15px;
+    padding-right: 0;
+    float: right;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+#phrases {
+    height: 240px;
+}
+
+#negative {
+    height: 85px;
+}
+
+input[type="number"]{
+    width: 80px;
+    margin: 15px 0;
+}
+
+input{
+    margin-top: 15px;
+}
+
+.tabs ul li{
+    cursor:pointer;
+    list-style: none;
+    color:#707070;
+}
+.tabs ul li.active, .tabs ul li.active:hover{
+    background:#707070;
+    color:#707070;
+}
+
+.active > div > input {
+    background: #E6E6E6;
+}
